@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calculator2" tests="2" skipped="0" failures="2" errors="0" timestamp="2018-05-11T13:50:52" hostname="WKWIN4675635" time="0.009">
+  <properties/>
+  <testcase name="Add two numbers -2 &amp; 3" classname="Calculator2" time="0.003">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepdefs.CalculatorRunSteps.testAdd(CalculatorRunSteps.java:29)
+	at ✽.I add -2 and 3(src/test/resources/calculator2.feature:8)
+</failure>
+  </testcase>
+  <testcase name="Add two numbers 10 &amp; 1" classname="Calculator2" time="0.001">
+    <failure message="java.lang.AssertionError: expected:&lt;11&gt; but was:&lt;25&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;11&gt; but was:&lt;25&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepdefs.CalculatorRunSteps.validateResult(CalculatorRunSteps.java:34)
+	at ✽.the result should be 25(src/test/resources/calculator2.feature:14)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
